@@ -1,4 +1,1 @@
-[NEO-M8N GPS]        [LSM6DS3 Accel/Gyro]    [MBE280 Barometer]   [Thermocouple]
-        \                  |                     |                    /
-         \                 |                     |                   /
-          --> [Arduino UNO] --> [Adafruit Datalogger (SD)] --> [NRF24L01 Wireless TX] --> Ground Station
+
