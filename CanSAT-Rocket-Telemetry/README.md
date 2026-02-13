@@ -12,6 +12,12 @@ The system streams and logs multi-sensor flight data, including altitude, engine
 ## System Architecture
 ![System Architecture](docs/SystemArchitecture.png) // this will link the path to the design
 
+### Visual Diagram (Professional Image)
+![System Architecture](docs/SystemArchitecture.png)
+
+### Quick ASCII Diagram (Inline Reference)
+
+
 **Data Flow:**  
 // image perhaps of the data flow 
 
