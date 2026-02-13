@@ -16,6 +16,11 @@ The system streams and logs multi-sensor flight data, including altitude, engine
 ![System Architecture](docs/SystemArchitecture.png)
 
 ### Quick ASCII Diagram (Inline Reference)
+[NEO-M8N GPS]        [LSM6DS3 Accel/Gyro]    [MBE280 Barometer]   [Thermocouple]
+        \                  |                     |                    /
+         \                 |                     |                   /
+          --> [Arduino UNO] --> [Adafruit Datalogger (SD)] --> [NRF24L01 Wireless TX] --> Ground Station
+
 
 
 **Data Flow:**  
